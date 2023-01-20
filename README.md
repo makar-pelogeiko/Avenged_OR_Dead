@@ -8,3 +8,5 @@ To execute this project you need to
 - set folder of this project as working dir (example for turbo pascal: menu file -> change dir)
 - select file AOD.PAS
 - Build project (example for turbo pascal: menu compile -> build)
+
+turbo pascal can be downloaded here: https://sourceforge.net/projects/turbopascal-wdb/
