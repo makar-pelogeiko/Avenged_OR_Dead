@@ -1,10 +1,10 @@
-uses paint1,graph,drawhero;
+uses paint1,graph,drawhero, consts;
 var  xh,yh,gd,gm:integer;
      n,p,i:integer;
      picsed:mas2;
      picmet:mas3;
 begin
-initgraph(gm,gd,'c:\tp7\bgi');
+initgraph(gm,gd, GrP);
 painthero1(picsed,picmet);
 painthero(100,100,1,1,1);
 painthero(100,200,-1,1,0);

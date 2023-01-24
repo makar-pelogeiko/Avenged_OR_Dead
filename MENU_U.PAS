@@ -90,11 +90,12 @@ Implementation
          clearviewport;
          settextstyle(2,0,8);
          setcolor(4);
-         outtextxy(20,160,'Help Edvard kill his main enemy - BLUDvard!!');
-         outtextxy(80,240,'To control your hero use arrows');
-         outtextxy(80,280,'and buttons: "W,A,S,D,SPACE"');
-         outtextxy(80,320,'super addition: "R,E,Q,"');
-         outtextxy(80,360,'control s.a: "A,D,W,"');
+         outtextxy(20,100,'Help Edvard kill his main enemy - BLUDvard!!');
+         outtextxy(80,140,'To control your hero use arrows');
+         outtextxy(80,180,'and buttons: W, A, D, SPACE');
+         outtextxy(80,220,'super addition: R, E, Q,');
+         outtextxy(80,260,'control s.a: "A, D, W, S"');
+         outtextxy(40,300,'use Ctrl+f12/f11 to speed up/down');
          readkey;
        end;
 

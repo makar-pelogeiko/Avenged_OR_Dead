@@ -372,7 +372,7 @@ Implementation
    painthero2(pics);
    painthero3(pics);   }
    begin
-   initgraph(gm,gd,'c:\tp7\bgi');
+   initgraph(gm,gd,GrP);
 painthero2(picsr);
 painthero3(picsr);
 closegraph;

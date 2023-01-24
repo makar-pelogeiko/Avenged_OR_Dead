@@ -36,7 +36,7 @@ begin
    sbot:='bot'; smap:='map';
    gd:=VGA;
    gm:=VGAHi;
-   initgraph(gd,gm,'c:\tpwdb\bgi');
+   initgraph(gd,gm, GrP);
    gd:=graphresult;
    if gd <> grOK then
    begin
@@ -94,7 +94,7 @@ begin
           move_bullets(bul,blocks,hero);
           all_blocks(blocks,hero.x,hero.y, kb, bul);
           if hero.disk=0 then fly(blocks,bul,hero);
-          delay(50);
+          {delay(50);}
 {game}   until (c=#27)or(can_exit(blocks, kb) and hero_end(xle,yue,xre,yde,hero.x,hero.y)) or(hero.xp<=0);
 
            hero.x:=45;

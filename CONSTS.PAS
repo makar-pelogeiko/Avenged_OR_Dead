@@ -1,6 +1,7 @@
 Unit consts;
  Interface
   const
+        GrP='c:\tpwdb\bgi';
         R_D=6;
         DS_DISK=8;
         N=100;

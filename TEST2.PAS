@@ -1,9 +1,9 @@
-uses paint2,graph;
+uses paint2,graph, consts;
 var  xh,yh,gd,gm:integer;
      n,p,i:integer;
      pics:mas1;
 begin
-initgraph(gm,gd,'c:\tp7\bgi');
+initgraph(gm,gd, GrP);
 painthero2(pics);
 painthero3(pics);
 putimage(10,10,pics[1]^,copyput);
